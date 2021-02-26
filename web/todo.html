@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+    <div class="col-sm-6">
+   <h1><span class="styling">TODO</span>List</h1>
+   <div class="input_div">
+       <input class="input" type="text" placeholder="What Do You Want to Do....">
+       <button class="addButton">+</button>
+   </div>
+   <div class="container">
+       <div class="item">
+           <input type="text" class="item_input" value="exercise" disabled>
+           <button class="editButton">+</button>
+           <button class="removeButton">-</button>
+       </div>
+   </div> 
+    </div>
+    
+   <div class="col-sm-6">
+       <h2>TOMORROW</h2>
+       <div class="input2_div">
+           <input class="input" type="text" placeholder="What do you want to do tomorrow..." >
+           <button class="addButton">+</button>
+        </div>
+        <div class="container">
+            <div class="item2">
+                <input type="text" class="item2_input" disabled>
+                <button class="editButton">+</button>
+                <button class="removeButton">-</button>
+            </div>
+        </div>
+       <script src="../js/todo.js"></script>
+   </div>
+   </div>
+</body>
+</html>

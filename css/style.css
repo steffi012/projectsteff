@@ -1,0 +1,18 @@
+ /*defining style using style class*/
+ .demo{
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+
+}
+/*based on id*/
+#p1{
+    color: violet;
+}
+/*element based*/
+h1{
+    color: chocolate;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

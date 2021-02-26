@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check(){
+            //let regex=/^(987)\d{7}\s+(0484)*-\d{7}$/g
+            //+\s(0484)*-\d{7}\s/g
+            //+(0484)*-\d{7}$\s/g
+            //let regex=/\d+/
+            //let regex=/^\w+\W*@(gmail.com|yahoo.in)$/g
+            //let regex
+            
+            let data=document.getElementById('data').value
+            alert(data.match(regex))
+           /* if(regex.test(data)){
+                alert("VALID EMAIL ID")
+            }
+            else{
+                alert("INVALID EMAIL ID")
+            }*/
+            //var input="my phone number is 9876543210 and office number"+"is (0484)-2245561"+"fax number is (0484)-2245902"  
+            
+            
+
+            let inp='python programming'
+            let regex=/python/
+            let result=inp.replace(regex,"javascript")
+            alert(result)
+             }
+
+
+    </script>
+
+    <input type="text" id="data">
+    <button onclick="check()">click</button>
+</body>
+</html>

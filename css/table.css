@@ -1,0 +1,20 @@
+.tbl{
+    border-collapse: collapse;
+}
+
+
+.thlink{
+    background-color:grey;
+}
+
+.thlink:hover{
+    background-color: blue;
+}
+
+.trlink:nth-child(even){
+    background-color: green;
+}
+
+.trlink:hover:nth-child(odd){
+    background-color: red;
+}
